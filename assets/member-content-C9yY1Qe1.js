@@ -1,4 +1,4 @@
-import{audit as e,dataDir as t,getDb as n,r}from"./db-BHs-Ecgq.js";var i=r(),a=(e,t=200)=>typeof e==`string`?e.trim().slice(0,t):``,o=(e,t=200)=>new Response(JSON.stringify(e),{status:t,headers:{"content-type":`application/json`,"cache-control":`no-store`}}),s=!1;function c(){let e=n();return s||=(e.exec(`CREATE TABLE IF NOT EXISTS member_items (
+import{audit as e,dataDir as t,getDb as n,r}from"./db-Ca9adrX7.js";var i=r(),a=(e,t=200)=>typeof e==`string`?e.trim().slice(0,t):``,o=(e,t=200)=>new Response(JSON.stringify(e),{status:t,headers:{"content-type":`application/json`,"cache-control":`no-store`}}),s=!1;function c(){let e=n();return s||=(e.exec(`CREATE TABLE IF NOT EXISTS member_items (
       id INTEGER PRIMARY KEY, kind TEXT NOT NULL, title TEXT NOT NULL, speaker TEXT NOT NULL DEFAULT '', date TEXT,
       description TEXT NOT NULL DEFAULT '', video_url TEXT NOT NULL DEFAULT '', file_name TEXT, file_stored TEXT, file_size INTEGER,
       published INTEGER NOT NULL DEFAULT 1, sort INTEGER NOT NULL DEFAULT 0, updated_by TEXT,
