@@ -1,4 +1,4 @@
-import{a as e,n as t,u as n}from"./index-Ck47NIg4.js";import{getDb as r}from"./db-DhmM-cfp.js";import{sendOne as i}from"./email-BlTFC5Ou.js";var a=e(),o=n(t(),1),s=[{name:`Early Bird`,price:0,until:``},{name:`Normal`,price:0,until:``},{name:`Rush`,price:0,until:``}],c={received:{subject:`Registration received — {{event}}`,body:`Dear {{name}},
+import{a as e,n as t,u as n}from"./index-C5aW4_g_.js";import{getDb as r}from"./db-fOBOKFj1.js";import{sendOne as i}from"./email-DgMgKgPq.js";var a=e(),o=n(t(),1),s=[{name:`Early Bird`,price:0,until:``},{name:`Normal`,price:0,until:``},{name:`Rush`,price:0,until:``}],c={received:{subject:`Registration received — {{event}}`,body:`Dear {{name}},
 
 Thank you for registering for {{event}} on {{date}} at {{venue}}.
 
