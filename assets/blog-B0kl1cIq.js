@@ -1,4 +1,4 @@
-import{l as e}from"./index-DpvCMLpW.js";import{getDb as t}from"./db-Ia9di2Wm.js";import{t as n}from"./sanitize-html-BAEbawd2.js";var r=e(n(),1),i=!1;function a(){let e=t();return i||=(e.exec(`CREATE TABLE IF NOT EXISTS blog_posts (
+import{l as e}from"./index-Dsjzd_si.js";import{getDb as t}from"./db-Wp7Rzrnn.js";import{t as n}from"./sanitize-html-CVL2TMqC.js";var r=e(n(),1),i=!1;function a(){let e=t();return i||=(e.exec(`CREATE TABLE IF NOT EXISTS blog_posts (
       id INTEGER PRIMARY KEY, slug TEXT NOT NULL UNIQUE, title TEXT NOT NULL, author TEXT NOT NULL DEFAULT '',
       image TEXT NOT NULL DEFAULT '', excerpt TEXT NOT NULL DEFAULT '', body TEXT NOT NULL DEFAULT '',
       status TEXT NOT NULL DEFAULT 'draft', publish_at TEXT, created_at TEXT NOT NULL DEFAULT (datetime('now')),
